@@ -11,3 +11,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-ligth{
+    display: inline-block;
+    padding: -5px;
+    background:black;
+    margin: auto;
+}
+
+
+.light{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:blue;
+}
+.red{background: red;}
+.red{background:yellow;}
+.red{background: green;}
+
+.glow{border-bottom: 0px,0px,9px,4px blue;}
+
+
+    
