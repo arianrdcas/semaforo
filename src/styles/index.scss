@@ -11,9 +11,9 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.traffic-ligth{
+.traffic-light{
     display: inline-block;
-    padding: -5px;
+    padding: 10px;
     background:black;
     margin: auto;
 }
@@ -25,11 +25,13 @@
     border-radius: 50%;
     background-color:blue;
 }
-.red{background: red;}
-.red{background:yellow;}
-.red{background: green;}
+.red{ background: red; }
+.yellow{ background:yellow; }
+.green{ background: green; }
 
-.glow{border-bottom: 0px,0px,9px,4px blue;}
+.glow{
+    box-shadow: 0px 0px 9px 4px #747DE8;
+}
 
 
     
